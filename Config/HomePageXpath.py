@@ -39,3 +39,4 @@ class sourcepath:
     STARTPLAY =(By.XPATH,"//button[@id='btnPlay']")
     APPENBUTTON = (By.XPATH,"//p[@data-action='apend_playlist']")
     APPENPOPUP =(By.XPATH,"//div[contains(text(),'Load Playlist')]")
+    DELETEAPPENBTN= (By.XPATH,"//p[@onclick='buildLoadedPlaylist()']")

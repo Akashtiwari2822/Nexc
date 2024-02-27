@@ -48,3 +48,16 @@ class Test_Home(BaseTest):
         else:
             update_status(requirement_id, testcase_id, "Fail")
             assert False
+
+    @pytest.mark.parametrize("requirement_id, testcase_id", [("RQ_ID_16", "TC_16")])
+    def test_appen_playlist_delete_option_RQ_ID_16_TC_16(self, requirement_id, testcase_id):
+        self.loginPage = LoginPage(self.driver)
+        Testdatacsv = read_and_split_csv(requirement_id, testcase_id)
+        HomePage = self.loginPage.do_login(Testdatacsv[0], Testdatacsv[1])
+        title = HomePage.check_append_delete_optionshowing(Testdatacsv[2],Testdatacsv[3])  # get_home_page_title(Testdata.TITLE)
+        if title is True:
+            update_status(requirement_id, testcase_id, "Pass")
+            assert True
+        else:
+            update_status(requirement_id, testcase_id, "Fail")
+            assert False

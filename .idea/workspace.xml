@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52829bbf-11d5-4dc0-a6f2-26e0845e7ef0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/requirment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/HomePageXpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/Config/HomePageXpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/updatesatus.py" beforeDir="false" afterPath="$PROJECT_DIR$/Config/updatesatus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Homepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_load_append.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_load_append.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Tests/test_LoginPage.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2bRUi1OWYO7oQonZkUrvOwUk69k" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.pytest for test_Homepage.Test_Home.test_cloudx_to_recaster.executor": "Run",
+    "Python tests.pytest for test_Homepage.Test_Home.test_home_page_title.executor": "Debug",
+    "Python tests.pytest for test_Homepage.Test_Home.test_home_to_move_cloudx.executor": "Run",
+    "Python tests.pytest for test_Homepage.Test_Home.test_home_to_move_recaster.executor": "Run",
+    "Python tests.pytest for test_Homepage.Test_Home.test_recaster_to_cloudx.executor": "Run",
+    "Python tests.pytest for test_LoginPage.TestLogin.test_login_check.executor": "Run",
+    "Python tests.pytest for test_LoginPage.TestLogin.test_login_check_RQ_ID_8_TC_8.executor": "Run",
+    "Python tests.pytest for test_LoginPage.TestLogin.test_login_page_title.executor": "Run",
+    "Python tests.pytest for test_LoginPage.TestLogin.test_login_password_blank.executor": "Run",
+    "Python tests.pytest for test_LoginPage.TestLogin.test_login_username_blank.executor": "Run",
+    "Python tests.pytest for test_LoginPage.TestLogin.test_login_with_credentials.executor": "Run",
+    "Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_password.executor": "Debug",
+    "Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_password_RQ_ID_4_TC_4.executor": "Debug",
+    "Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_username.executor": "Debug",
+    "Python tests.pytest for test_LoginPage.TestLogin.test_signup_link_visible.executor": "Run",
+    "Python tests.pytest for test_LoginPage.TestLogin.test_signup_link_visible_RQ_ID_1_TC_1.executor": "Run",
+    "Python tests.pytest for test_LoginPage.Test_Login.test_login.executor": "Debug",
+    "Python tests.pytest for test_Menu.Test_Home.test_menu_check_exit_RQ_ID_9_TC_9.executor": "Run",
+    "Python tests.pytest for test_functional.Test_Home.test_append_button_disable_RQ_ID_14_TC_14.executor": "Run",
+    "Python tests.pytest for test_functional.Test_Home.test_load_Upload_button_showing_RQ_ID_12_TC_12.executor": "Run",
+    "Python tests.pytest for test_functional.Test_Home.test_load_button_disable_RQ_ID_13_TC_13.executor": "Run",
+    "Python tests.pytest for test_functional.Test_Home.test_load_playlist_count_match_RQ_ID_11_TC_11.executor": "Run",
+    "Python tests.pytest for test_functional.Test_Home.test_locad_playlist_section_exit_RQ_ID_10_TC_10.executor": "Run",
+    "Python tests.pytest for test_functional.Test_Home.test_menu_check_exit_RQ_ID_10_TC_10.executor": "Run",
+    "Python tests.pytest for test_load_append.Test_Home.test_appen_playlist_delete_option_RQ_ID_16_TC_16.executor": "Debug",
+    "Python tests.pytest for test_load_append.Test_Home.test_appen_popup_open_RQ_ID_15_TC_15.executor": "Debug",
+    "Python tests.pytest for test_load_append.Test_Home.test_append_button_disable_RQ_ID_14_TC_14.executor": "Debug",
+    "Python tests.pytest for test_load_append.Test_Home.test_load_button_disable_RQ_ID_13_TC_13.executor": "Debug",
+    "Python tests.pytest in test_LoginPage.py.executor": "Debug",
+    "Python.updatesatus.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/xampp/htdocs/Inventeryandworkmanagementsystem",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python tests.pytest for test_load_append.Test_Home.test_appen_popup_open_RQ_ID_15_TC_15">
+    <configuration name="pytest for test_LoginPage.TestLogin.test_signup_link_visible_RQ_ID_1_TC_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="nex" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_LoginPage.TestLogin.test_signup_link_visible_RQ_ID_1_TC_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_functional.Test_Home.test_load_playlist_count_match_RQ_ID_11_TC_11" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="nex" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_functional.Test_Home.test_load_playlist_count_match_RQ_ID_11_TC_11&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_load_append.Test_Home.test_appen_playlist_delete_option_RQ_ID_16_TC_16" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="nex" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_load_append.Test_Home.test_appen_playlist_delete_option_RQ_ID_16_TC_16&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_load_append.Test_Home.test_appen_popup_open_RQ_ID_15_TC_15" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="nex" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_load_append.Test_Home.test_appen_popup_open_RQ_ID_15_TC_15&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_load_append.Test_Home.test_append_button_disable_RQ_ID_14_TC_14" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="nex" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_load_append.Test_Home.test_append_button_disable_RQ_ID_14_TC_14&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_load_append.Test_Home.test_appen_popup_open_RQ_ID_15_TC_15" />
+        <item itemvalue="Python tests.pytest for test_load_append.Test_Home.test_appen_playlist_delete_option_RQ_ID_16_TC_16" />
+        <item itemvalue="Python tests.pytest for test_LoginPage.TestLogin.test_signup_link_visible_RQ_ID_1_TC_1" />
+        <item itemvalue="Python tests.pytest for test_functional.Test_Home.test_load_playlist_count_match_RQ_ID_11_TC_11" />
+        <item itemvalue="Python tests.pytest for test_load_append.Test_Home.test_append_button_disable_RQ_ID_14_TC_14" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52829bbf-11d5-4dc0-a6f2-26e0845e7ef0" name="Changes" comment="" />
+      <created>1706177507431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706177507431</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/test_LoginPage.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/test_LoginPage.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/test_LoginPage.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/test_LoginPage.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/test_LoginPage.py</url>
+          <line>120</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/test_LoginPage.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/test_Menu.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pages/Homepage.py</url>
+          <line>186</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/test_load_append.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

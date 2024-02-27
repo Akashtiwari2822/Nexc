@@ -1,0 +1,6 @@
+selenium
+pytest
+cryptography
+clear_cache
+pytest-csv pytest-html
+pyautogui

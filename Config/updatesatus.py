@@ -3,7 +3,7 @@ import os
 
 
 def update_status(requirement_id, testcase_id, status):
-    file_path = './credentials/testcasees_automationcheck.csv'
+    file_path = '../credentials/testcasees_automationcheck.csv'
     print("h3")
     with open(file_path, 'r') as file:
         reader = csv.reader(file)
@@ -13,13 +13,13 @@ def update_status(requirement_id, testcase_id, status):
         if row[1].strip() == requirement_id and row[4].strip() == testcase_id:
             row[16] = status
 
-    with open('./credentials/testcasees_automationcheck.csv', 'w', newline='') as file:
+    with open('../credentials/testcasees_automationcheck.csv', 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerows(rows)
 
 
 def read_and_split_csv(requirement_id, testcase_id):
-    filename = './credentials/testcasees_automationcheck.csv'
+    filename = '../credentials/testcasees_automationcheck.csv'
 
     with open(filename, 'r', newline='') as csvfile:
         reader = csv.reader(csvfile)
