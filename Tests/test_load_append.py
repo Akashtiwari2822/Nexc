@@ -54,7 +54,33 @@ class Test_Home(BaseTest):
         self.loginPage = LoginPage(self.driver)
         Testdatacsv = read_and_split_csv(requirement_id, testcase_id)
         HomePage = self.loginPage.do_login(Testdatacsv[0], Testdatacsv[1])
-        title = HomePage.check_append_delete_optionshowing(Testdatacsv[2],Testdatacsv[3])  # get_home_page_title(Testdata.TITLE)
+        title = HomePage.check_append_delete_optionshowing(Testdatacsv[2],Testdatacsv[3],Testdatacsv[4])  # get_home_page_title(Testdata.TITLE)
+        if title is True:
+            update_status(requirement_id, testcase_id, "Pass")
+            assert True
+        else:
+            update_status(requirement_id, testcase_id, "Fail")
+            assert False
+
+    @pytest.mark.parametrize("requirement_id, testcase_id", [("RQ_ID_17", "TC_17")])
+    def test_manage_playlist_delete_RQ_ID_17_TC_17(self, requirement_id, testcase_id):
+        self.loginPage = LoginPage(self.driver)
+        Testdatacsv = read_and_split_csv(requirement_id, testcase_id)
+        HomePage = self.loginPage.do_login(Testdatacsv[0], Testdatacsv[1])
+        title = HomePage.check_mamange_playlist(Testdatacsv[2],Testdatacsv[3])  # get_home_page_title(Testdata.TITLE)
+        if title is True:
+            update_status(requirement_id, testcase_id, "Pass")
+            assert True
+        else:
+            update_status(requirement_id, testcase_id, "Fail")
+            assert False
+
+    @pytest.mark.parametrize("requirement_id, testcase_id", [("RQ_ID_18", "TC_18")])
+    def test_verify_the_edit_allmenu_show_RQ_ID_18_TC_18(self, requirement_id, testcase_id):
+        self.loginPage = LoginPage(self.driver)
+        Testdatacsv = read_and_split_csv(requirement_id, testcase_id)
+        HomePage = self.loginPage.do_login(Testdatacsv[0], Testdatacsv[1])
+        title = HomePage.editmenu_verify(Testdatacsv[2], Testdatacsv[3])  # get_home_page_title(Testdata.TITLE)
         if title is True:
             update_status(requirement_id, testcase_id, "Pass")
             assert True

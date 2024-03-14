@@ -10,7 +10,7 @@ print('ak test')
 
 
 # @pytest.fixture(params=["firefox","chrome"], scope='class')
-@pytest.fixture(params=["chrome"], scope='class')
+@pytest.fixture(params=["firefox"], scope='class')
 def init_driver(request):
     clear_cache(dir=".")
     print("======================================= setup ========================================")

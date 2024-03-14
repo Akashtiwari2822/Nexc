@@ -355,6 +355,20 @@ class HomePage(BasePage):
             self.do_hover(hoverbtn)
             time.sleep(1)
             self.do_click(cxpathn)
+        elif type=='delete':
+            valnew = "//div[@title='" + playlistname + "']//div//div//button[contains(text(),'Delete')]"
+            cxpathn = (By.XPATH, valnew)
+            self.do_hover(hoverbtn)
+            time.sleep(1)
+            self.do_click(cxpathn)
+            time.sleep(2)
+            self.do_click(sourcepath.STOPYES)
+            time.sleep(2)
+            if self.is_visible(hoverbtn) is True:
+                return False
+            else:
+                return True
+
         else:
             valnew = "//div[@title='" + playlistname + "']//div//div//button[contains(text(),'Load')]"
             cxpathn = (By.XPATH, valnew)
@@ -362,7 +376,8 @@ class HomePage(BasePage):
             time.sleep(1)
             self.do_click(cxpathn)
 
-    def check_append_delete_optionshowing(self,channelname,playlistname):
+
+    def check_append_delete_optionshowing(self,channelname,playlistname,playlistnamenew):
         self.go_to_in_cloudx_channel_screen(channelname)
         self.getacess()
         if self.check_enginerun() == "yes":
@@ -378,7 +393,7 @@ class HomePage(BasePage):
         else:
             self.load_append_playlist(playlistname,'load')
             time.sleep(2)
-            self.load_append_playlist(playlistname, 'append')
+            self.load_append_playlist(playlistnamenew, 'append')
             self.do_click(sourcepath.Filemenu)
             time.sleep(1)
             if self.is_visible(sourcepath.DELETEAPPENBTN) is True:
@@ -387,9 +402,21 @@ class HomePage(BasePage):
             else:
                 return False
 
+    def check_mamange_playlist(self,channelname,playlistname):
+        self.go_to_in_cloudx_channel_screen(channelname)
+        self.getacess()
+        self.do_hover(sourcepath.Filemenu)
+        self.do_click(sourcepath.MANAGEPLAYLIST)
+        time.sleep(2)
+        if self.load_append_playlist(playlistname,'delete') is True:
+            self.logout_session()
+            return True
+        else:
+            return False
 
-
-
-
-
-
+    def editmenu_verify(self,channelname):
+        self.go_to_in_cloudx_channel_screen(channelname)
+        self.getacess()
+        self.load_append_playlist()
+        if self.check_enginerun() == "yes":
+            self.load_append_playlist()

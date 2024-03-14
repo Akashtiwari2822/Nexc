@@ -40,3 +40,4 @@ class sourcepath:
     APPENBUTTON = (By.XPATH,"//p[@data-action='apend_playlist']")
     APPENPOPUP =(By.XPATH,"//div[contains(text(),'Load Playlist')]")
     DELETEAPPENBTN= (By.XPATH,"//p[@onclick='buildLoadedPlaylist()']")
+    MANAGEPLAYLIST = (By.XPATH,"//p[normalize-space()='Manage Playlist']")
