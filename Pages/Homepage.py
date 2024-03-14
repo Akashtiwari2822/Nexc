@@ -414,9 +414,9 @@ class HomePage(BasePage):
         else:
             return False
 
-    def editmenu_verify(self,channelname):
+    def editmenu_verify(self,channelname,playlistname):
         self.go_to_in_cloudx_channel_screen(channelname)
         self.getacess()
         self.load_append_playlist()
         if self.check_enginerun() == "yes":
-            self.load_append_playlist()
+            self.load_append_playlist(playlistname)
