@@ -15,11 +15,11 @@ def init_driver(request):
     clear_cache(dir=".")
     print("======================================= setup ========================================")
     print(request)
-    # chrome_options = Options()
+    chrome_options = Options()
     # chrome_options.add_argument('--headless')
     if request.param == "chrome":
-
-        web_driver = webdriver.Chrome()
+        chrome_driver_path = 'C:\\Users\\Akasht.sw\\Downloads\\testingwebdriver\\chromedriver-win32\\chromedriver'
+        web_driver = webdriver.Chrome(chrome_driver_path, options=chrome_options)
         # web_driver = webdriver.Chrome(options=chrome_options)
 
         # web_driver.addArguments("--headless")

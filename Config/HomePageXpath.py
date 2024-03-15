@@ -1,18 +1,19 @@
 from selenium.webdriver.common.by import By
 class sourcepath:
     SUCESSPATH=(By.XPATH,"//div[@class='ajs-message ajs-success ajs-visible']")
-    HOVER_BUTTON = (By.XPATH, "//a[@class='sc-iHhHRJ cKagkC']")
-    CLOUDX_BUUTON = (By.XPATH, "//a[@class='sc-iHhHRJ cKagkC']//a[1]")
+    HOVER_BUTTON = (By.XPATH, "//a[@class='sc-lnrBVv bHlPPn']")
+    CLOUDX_BUUTON = (By.XPATH, "//a[@class='sc-lnrBVv bHlPPn']//a[1]")
     PLAYOUTDASHBOARD = (By.XPATH, "//div[@class='playoutChannelDashboard-label']")
     RECASTERPAGE = (By.XPATH, "//a[@href='/recaster']")
     CLOUDX_HOVER_BUTTON = (
-        By.XPATH, "//div[contains(@class,'w3-row channelMenuBar')]/div[contains(@class,'l13 m24 s24 w3-col')]/div[3]")
-    CLOUDX_TO_RECASTER_BUTTON = (By.XPATH, "//body[1]/div[4]/div[1]/div[3]/div[3]/div[1]/div[1]/ul[1]/li[2]/a[1]")
-    RECASTER_HOVER_BUTTON = (By.XPATH, "//*[@id='menues']/li[3]")
+        By.XPATH, "//div[contains(@class,'l13 m24 s24 w3-col')]//div[2]")
+    CLOUDX_TO_RECASTER_BUTTON = (By.XPATH, "//body[1]/div[4]/div[1]/div[3]/div[2]/div[1]/div[1]/ul[1]/li[2]/a[1]")
+    RECASTER_HOVER_BUTTON = (By.XPATH, "//li[@class='drop_dwn pg_actv']")
     RECASTERPAGE_TO_CLOUDX = (By.XPATH, "//a[normalize-space()='CloudX']")
     CLOUDX_SHOW_LOGOUT_BUTTON = (
         By.XPATH, "//div[@class='d-flex w3-row w3-right textCapitalize align-items-center dropdown hoverText']")
-    CLOUDX_LOGOUT_BUTTON = (By.XPATH, "//a[@title='Logout']")
+    CLICK_RECASTERLOGOUT=(By.XPATH,"//div[@class='prfl_wppr']//div[@class='title']")
+    CLOUDX_LOGOUT_BUTTON = (By.XPATH, "//a[normalize-space()='Sign Out']")
     # RECASTER_SHOW_LOGOUT_BUTTON = (By.XPATH, "//div[@class='media']")
     RECASTER_LOGOUT_BUTTON = (By.XPATH, "/html/body/header/div/div/nav/div[2]/ul/li/a")
     SHOW_LOGOUT_BUTTON = (By.XPATH, "//div[@class='media']")

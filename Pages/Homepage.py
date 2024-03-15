@@ -36,11 +36,11 @@ class HomePage(BasePage):
         return self.get_element_text(sourcepath.PLAYOUTDASHBOARD)
 
     def contido_to_recaster(self, title):
-        self.do_hover_and_click(self.HOVER_BUTTON, sourcepath.RECASTERPAGE)
+        self.do_hover_and_click(sourcepath.HOVER_BUTTON, sourcepath.RECASTERPAGE)
         time.sleep(2)
         val = self.get_title(title)
-        # self.do_click(self.RECASTER_SHOW_LOGOUT_BUTTON)
         time.sleep(5)
+        self.do_click(sourcepath.CLICK_RECASTERLOGOUT)
         self.do_click(sourcepath.RECASTER_LOGOUT_BUTTON)
 
         return val
@@ -50,8 +50,8 @@ class HomePage(BasePage):
         time.sleep(2)
         self.do_hover_and_click(sourcepath.CLOUDX_HOVER_BUTTON, sourcepath.CLOUDX_TO_RECASTER_BUTTON)
         val = self.get_title(title)
-        # self.do_click(self.RECASTER_SHOW_LOGOUT_BUTTON)
-        self.do_click(self.RECASTER_LOGOUT_BUTTON)
+        self.do_click(sourcepath.CLICK_RECASTERLOGOUT)
+        self.do_click(sourcepath.RECASTER_LOGOUT_BUTTON)
 
         return val
 

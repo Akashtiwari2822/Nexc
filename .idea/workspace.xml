@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52829bbf-11d5-4dc0-a6f2-26e0845e7ef0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/test_redirection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/HomePageXpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/Config/HomePageXpath.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/Homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Homepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +70,10 @@
     "Python tests.pytest for test_load_append.Test_Home.test_append_button_disable_RQ_ID_14_TC_14.executor": "Debug",
     "Python tests.pytest for test_load_append.Test_Home.test_load_button_disable_RQ_ID_13_TC_13.executor": "Debug",
     "Python tests.pytest for test_load_append.Test_Home.test_manage_playlist_delete_RQ_ID_17_TC_17.executor": "Debug",
+    "Python tests.pytest for test_redirection.Test_redirection.test_cloudx_to_recaster.executor": "Run",
+    "Python tests.pytest for test_redirection.Test_redirection.test_home_to_move_cloudx.executor": "Run",
+    "Python tests.pytest for test_redirection.Test_redirection.test_home_to_move_recaster.executor": "Run",
+    "Python tests.pytest for test_redirection.Test_redirection.test_recaster_to_cloudx.executor": "Run",
     "Python tests.pytest in test_LoginPage.py.executor": "Debug",
     "Python.updatesatus.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -78,75 +83,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.pytest for test_load_append.Test_Home.test_manage_playlist_delete_RQ_ID_17_TC_17">
-    <configuration name="pytest for test_LoginPage.TestLogin.test_signup_link_visible_RQ_ID_1_TC_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="nex" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_LoginPage.TestLogin.test_signup_link_visible_RQ_ID_1_TC_1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_functional.Test_Home.test_load_playlist_count_match_RQ_ID_11_TC_11" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="nex" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_functional.Test_Home.test_load_playlist_count_match_RQ_ID_11_TC_11&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_load_append.Test_Home.test_appen_playlist_delete_option_RQ_ID_16_TC_16" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="nex" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_load_append.Test_Home.test_appen_playlist_delete_option_RQ_ID_16_TC_16&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_load_append.Test_Home.test_appen_popup_open_RQ_ID_15_TC_15" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="nex" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_load_append.Test_Home.test_appen_popup_open_RQ_ID_15_TC_15&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_redirection.Test_redirection.test_home_to_move_cloudx">
     <configuration name="pytest for test_load_append.Test_Home.test_manage_playlist_delete_RQ_ID_17_TC_17" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="nex" />
       <option name="ENV_FILES" value="" />
@@ -164,13 +101,81 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_redirection.Test_redirection.test_cloudx_to_recaster" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="nex" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_redirection.Test_redirection.test_cloudx_to_recaster&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_redirection.Test_redirection.test_home_to_move_cloudx" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="nex" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_redirection.Test_redirection.test_home_to_move_cloudx&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_redirection.Test_redirection.test_home_to_move_recaster" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="nex" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_redirection.Test_redirection.test_home_to_move_recaster&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_redirection.Test_redirection.test_recaster_to_cloudx" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="nex" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_redirection.Test_redirection.test_recaster_to_cloudx&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_redirection.Test_redirection.test_home_to_move_cloudx" />
+        <item itemvalue="Python tests.pytest for test_redirection.Test_redirection.test_recaster_to_cloudx" />
+        <item itemvalue="Python tests.pytest for test_redirection.Test_redirection.test_cloudx_to_recaster" />
+        <item itemvalue="Python tests.pytest for test_redirection.Test_redirection.test_home_to_move_recaster" />
         <item itemvalue="Python tests.pytest for test_load_append.Test_Home.test_manage_playlist_delete_RQ_ID_17_TC_17" />
-        <item itemvalue="Python tests.pytest for test_LoginPage.TestLogin.test_signup_link_visible_RQ_ID_1_TC_1" />
-        <item itemvalue="Python tests.pytest for test_load_append.Test_Home.test_appen_playlist_delete_option_RQ_ID_16_TC_16" />
-        <item itemvalue="Python tests.pytest for test_load_append.Test_Home.test_appen_popup_open_RQ_ID_15_TC_15" />
-        <item itemvalue="Python tests.pytest for test_functional.Test_Home.test_load_playlist_count_match_RQ_ID_11_TC_11" />
       </list>
     </recent_temporary>
   </component>
@@ -228,6 +233,26 @@
           <url>file://$PROJECT_DIR$/Pages/Homepage.py</url>
           <line>366</line>
           <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/test_redirection.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/test_redirection.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/test_redirection.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pages/Homepage.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="117" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
