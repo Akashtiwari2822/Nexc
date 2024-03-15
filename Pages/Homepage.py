@@ -346,16 +346,16 @@ class HomePage(BasePage):
         if self.check_enginerun() == "yes":
             self.appen_playlist()
 
-    def load_append_playlist(self,playlistname,type):
+    def load_append_playlist(self, playlistname, type):
         hoverbtn = "//div[@title='" + playlistname + "']"
         hoverbtn = (By.XPATH, hoverbtn)
-        if type=='append':
+        if type == 'append':
             valnew = "//div[contains(@title,'" + playlistname + "')]//div[contains(@class,'plListAction w3-animate-zoom')]//div//button[contains(@class,'btnDisabled')][normalize-space()='Append']"
             cxpathn = (By.XPATH, valnew)
             self.do_hover(hoverbtn)
             time.sleep(1)
             self.do_click(cxpathn)
-        elif type=='delete':
+        elif type == 'delete':
             valnew = "//div[@title='" + playlistname + "']//div//div//button[contains(text(),'Delete')]"
             cxpathn = (By.XPATH, valnew)
             self.do_hover(hoverbtn)
@@ -376,13 +376,12 @@ class HomePage(BasePage):
             time.sleep(1)
             self.do_click(cxpathn)
 
-
-    def check_append_delete_optionshowing(self,channelname,playlistname,playlistnamenew):
+    def check_append_delete_optionshowing(self, channelname, playlistname, playlistnamenew):
         self.go_to_in_cloudx_channel_screen(channelname)
         self.getacess()
         if self.check_enginerun() == "yes":
             self.appen_playlist_popup()
-            self.load_append_playlist(playlistname,'append')
+            self.load_append_playlist(playlistname, 'append')
             self.do_click(sourcepath.Filemenu)
             time.sleep(1)
             if self.is_visible(sourcepath.DELETEAPPENBTN) is True:
@@ -391,7 +390,7 @@ class HomePage(BasePage):
             else:
                 return False
         else:
-            self.load_append_playlist(playlistname,'load')
+            self.load_append_playlist(playlistname, 'load')
             time.sleep(2)
             self.load_append_playlist(playlistnamenew, 'append')
             self.do_click(sourcepath.Filemenu)
@@ -402,19 +401,19 @@ class HomePage(BasePage):
             else:
                 return False
 
-    def check_mamange_playlist(self,channelname,playlistname):
+    def check_mamange_playlist(self, channelname, playlistname):
         self.go_to_in_cloudx_channel_screen(channelname)
         self.getacess()
         self.do_hover(sourcepath.Filemenu)
         self.do_click(sourcepath.MANAGEPLAYLIST)
         time.sleep(2)
-        if self.load_append_playlist(playlistname,'delete') is True:
+        if self.load_append_playlist(playlistname, 'delete') is True:
             self.logout_session()
             return True
         else:
             return False
 
-    def editmenu_verify(self,channelname,playlistname):
+    def editmenu_verify(self, channelname, playlistname):
         self.go_to_in_cloudx_channel_screen(channelname)
         self.getacess()
         self.load_append_playlist()

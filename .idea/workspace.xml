@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52829bbf-11d5-4dc0-a6f2-26e0845e7ef0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/HomePageXpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/Config/HomePageXpath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Homepage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/conftest.py" afterDir="false" />
-    </list>
+    <list default="true" id="52829bbf-11d5-4dc0-a6f2-26e0845e7ef0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -223,16 +218,6 @@
           <url>file://$PROJECT_DIR$/Pages/Homepage.py</url>
           <line>186</line>
           <option name="timeStamp" value="95" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Pages/Homepage.py</url>
-          <line>364</line>
-          <option name="timeStamp" value="109" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Pages/Homepage.py</url>
-          <line>366</line>
-          <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Tests/test_redirection.py</url>
