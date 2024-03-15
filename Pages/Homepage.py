@@ -413,9 +413,37 @@ class HomePage(BasePage):
         else:
             return False
 
-    def editmenu_verify(self, channelname, playlistname):
+    def editmenu_verify(self, channelname, playlistname,clipname):
         self.go_to_in_cloudx_channel_screen(channelname)
         self.getacess()
         self.load_append_playlist()
         if self.check_enginerun() == "yes":
+            val = f"//tr[@data-plclipid='{clipname}']"
+            valnew = (By.XPATH, val)
+            self.do_click(valnew)
+            self.do_hover(sourcepath.EDITMENU)
+            if self.is_visible(sourcepath.Forcibly_Id_Play) == self.is_visible(
+                    sourcepath.Direct_Play) == self.is_visible(sourcepath.Fix_Play) == self.is_visible(
+                    sourcepath.Forcibly_Live_Switch) == self.is_visible(
+                    sourcepath.Hide_All_Secondary) == self.is_visible(sourcepath.Delete_Row) == self.is_visible(
+                    sourcepath.Bulk_Delete_Row) == self.is_visible(sourcepath.Delete_All) == self.is_visible(
+                    sourcepath.Verify_Single_Clip) == self.is_visible(
+                    sourcepath.Verify_Whole_Playlist) == self.is_visible(sourcepath.Edit_Event) == self.is_visible(
+                    sourcepath.Toggle_Event_Time) == self.is_visible(sourcepath.Insert_Event) == self.is_visible(
+                    sourcepath.Insert_Live):
+                return True
+            else:
+                False
+
+        else:
             self.load_append_playlist(playlistname)
+            val=f"//tr[@data-plclipid='{clipname}']"
+            valnew=(By.XPATH,val)
+            self.do_click(valnew)
+            self.do_hover(sourcepath.EDITMENU)
+            if self.is_visible(sourcepath.Forcibly_Id_Play) == self.is_visible(sourcepath.Direct_Play) == self.is_visible(sourcepath.Fix_Play) == self.is_visible(sourcepath.Forcibly_Live_Switch)==self.is_visible(sourcepath.Hide_All_Secondary) == self.is_visible(sourcepath.Delete_Row) == self.is_visible(sourcepath.Bulk_Delete_Row) == self.is_visible(sourcepath.Delete_All) == self.is_visible(sourcepath.Verify_Single_Clip) == self.is_visible(sourcepath.Verify_Whole_Playlist) == self.is_visible(sourcepath.Edit_Event) == self.is_visible(sourcepath.Toggle_Event_Time) == self.is_visible(sourcepath.Insert_Event) == self.is_visible(sourcepath.Insert_Live):
+                return True
+            else:
+                False
+
+
