@@ -80,7 +80,7 @@ class Test_Home(BaseTest):
         self.loginPage = LoginPage(self.driver)
         Testdatacsv = read_and_split_csv(requirement_id, testcase_id)
         HomePage = self.loginPage.do_login(Testdatacsv[0], Testdatacsv[1])
-        title = HomePage.editmenu_verify(Testdatacsv[2], Testdatacsv[3],Testdatacsv,[4])  # get_home_page_title(Testdata.TITLE)
+        title = HomePage.editmenu_verify(Testdatacsv[2], Testdatacsv[3],Testdatacsv[4])  # get_home_page_title(Testdata.TITLE)
         if title is True:
             update_status(requirement_id, testcase_id, "Pass")
             assert True
