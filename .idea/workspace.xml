@@ -8,8 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/updatesatus.py" beforeDir="false" afterPath="$PROJECT_DIR$/Config/updatesatus.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/test_LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_LoginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_load_append.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_load_append.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credentials/testcasees_automationcheck.csv" beforeDir="false" afterPath="$PROJECT_DIR$/credentials/testcasees_automationcheck.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/reports/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/test_report.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reports/test_report.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/test_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/test_report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +51,17 @@
     "Python tests.pytest for test_LoginPage.TestLogin.test_login_check.executor": "Run",
     "Python tests.pytest for test_LoginPage.TestLogin.test_login_check_RQ_ID_8_TC_8.executor": "Run",
     "Python tests.pytest for test_LoginPage.TestLogin.test_login_page_title.executor": "Run",
+    "Python tests.pytest for test_LoginPage.TestLogin.test_login_page_title_RQ_ID_2_TC_2.executor": "Run",
     "Python tests.pytest for test_LoginPage.TestLogin.test_login_password_blank.executor": "Run",
     "Python tests.pytest for test_LoginPage.TestLogin.test_login_username_blank.executor": "Run",
     "Python tests.pytest for test_LoginPage.TestLogin.test_login_with_credentials.executor": "Run",
+    "Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_blank_RQ_ID_2_TC3.executor": "Debug",
     "Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_password.executor": "Debug",
+    "Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_password_RQ_ID_2_TC.executor": "Debug",
     "Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_password_RQ_ID_4_TC_4.executor": "Debug",
     "Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_username.executor": "Debug",
     "Python tests.pytest for test_LoginPage.TestLogin.test_signup_link_visible.executor": "Run",
-    "Python tests.pytest for test_LoginPage.TestLogin.test_signup_link_visible_RQ_ID_1_TC_1.executor": "Run",
+    "Python tests.pytest for test_LoginPage.TestLogin.test_signup_link_visible_RQ_ID_1_TC_1.executor": "Debug",
     "Python tests.pytest for test_LoginPage.Test_Login.test_login.executor": "Debug",
     "Python tests.pytest for test_Menu.Test_Home.test_menu_check_exit_RQ_ID_9_TC_9.executor": "Run",
     "Python tests.pytest for test_functional.Test_Home.test_append_button_disable_RQ_ID_14_TC_14.executor": "Run",
@@ -85,7 +89,58 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.pytest for test_load_append.Test_Home.test_verify_the_edit_allmenu_show_RQ_ID_18_TC_18">
+  <component name="RunManager" selected="Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_password_RQ_ID_2_TC">
+    <configuration name="pytest for test_LoginPage.TestLogin.test_login_page_title_RQ_ID_2_TC_2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="nex" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_LoginPage.TestLogin.test_login_page_title_RQ_ID_2_TC_2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_LoginPage.TestLogin.test_login_wrong_blank_RQ_ID_2_TC3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="nex" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_LoginPage.TestLogin.test_login_wrong_blank_RQ_ID_2_TC3&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_LoginPage.TestLogin.test_login_wrong_password_RQ_ID_2_TC" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="nex" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_LoginPage.TestLogin.test_login_wrong_password_RQ_ID_2_TC&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_LoginPage.TestLogin.test_signup_link_visible_RQ_ID_1_TC_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="nex" />
       <option name="ENV_FILES" value="" />
@@ -120,64 +175,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_redirection.Test_redirection.test_cloudx_to_recaster" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="nex" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_redirection.Test_redirection.test_cloudx_to_recaster&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_redirection.Test_redirection.test_home_to_move_cloudx" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="nex" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_redirection.Test_redirection.test_home_to_move_cloudx&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_redirection.Test_redirection.test_recaster_to_cloudx" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="nex" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_redirection.Test_redirection.test_recaster_to_cloudx&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_load_append.Test_Home.test_verify_the_edit_allmenu_show_RQ_ID_18_TC_18" />
+        <item itemvalue="Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_password_RQ_ID_2_TC" />
+        <item itemvalue="Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_blank_RQ_ID_2_TC3" />
+        <item itemvalue="Python tests.pytest for test_LoginPage.TestLogin.test_login_page_title_RQ_ID_2_TC_2" />
         <item itemvalue="Python tests.pytest for test_LoginPage.TestLogin.test_signup_link_visible_RQ_ID_1_TC_1" />
-        <item itemvalue="Python tests.pytest for test_redirection.Test_redirection.test_home_to_move_cloudx" />
-        <item itemvalue="Python tests.pytest for test_redirection.Test_redirection.test_recaster_to_cloudx" />
-        <item itemvalue="Python tests.pytest for test_redirection.Test_redirection.test_cloudx_to_recaster" />
+        <item itemvalue="Python tests.pytest for test_load_append.Test_Home.test_verify_the_edit_allmenu_show_RQ_ID_18_TC_18" />
       </list>
     </recent_temporary>
   </component>
@@ -267,8 +271,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Config/updatesatus.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="124" />
+          <line>5</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Config/updatesatus.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Config/updatesatus.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/test_LoginPage.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/test_LoginPage.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/test_LoginPage.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/test_LoginPage.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="135" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

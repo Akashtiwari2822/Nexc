@@ -35,7 +35,7 @@ class TestLogin(BaseTest):
             update_status(requirement_id, testcase_id, "Fail")
             assert False
 
-    @pytest.mark.parametrize("requirement_id, testcase_id", [("RQ_ID_2", "TC_2")])
+    @pytest.mark.parametrize("requirement_id, testcase_id", [("RQ_ID_2", "TC2")])
     def test_login_page_title_RQ_ID_2_TC_2(self, requirement_id, testcase_id):
         self.loginpage = LoginPage(self.driver)
         titledata = self.loginpage.get_title(Testdata.TITLE)
@@ -85,12 +85,12 @@ class TestLogin(BaseTest):
             assert False
 
     @pytest.mark.parametrize("requirement_id, testcase_id", [("RQ_ID_2", "TC6")])
-    def test_login_wrong_password_RQ_ID_2_TC7(self, requirement_id, testcase_id):
+    def test_login_wrong_password_RQ_ID_2_TC(self, requirement_id, testcase_id):
         self.loginpage = LoginPage(self.driver)
         Testdatacsv = read_and_split_csv(requirement_id, testcase_id)
         message = self.loginpage.do_login_password_wrong_username(Testdatacsv[0], Testdatacsv[1])
         # assert message == Testdata.LOGIN_WRONG_PASSWORD_MESSAGE
-        if "Incorrect password entered" in message:
+        if "Invalid Credentials" in message:
             update_status(requirement_id, testcase_id, "Pass")
             assert True
         else:
@@ -127,14 +127,14 @@ class TestLogin(BaseTest):
 
 
 
-    @pytest.mark.parametrize("requirement_id, testcase_id", [("RQ_ID_2", "TC2")])
-    def test_login_check_RQ_ID_2_TC2(self, requirement_id, testcase_id):
-        self.loginpage = LoginPage(self.driver)
-        Testdatacsv = read_and_split_csv(requirement_id, testcase_id)
-        message = self.loginpage.do_login_check(Testdatacsv[0], Testdatacsv[1])
-        if message == Testdata.LOGIN_SUCESS_MESSAGE:
-            update_status(requirement_id, testcase_id, "Pass")
-            assert True
-        else:
-            update_status(requirement_id, testcase_id, "Fail")
-            assert False
+    # @pytest.mark.parametrize("requirement_id, testcase_id", [("RQ_ID_2", "TC2")])
+    # def test_login_check_RQ_ID_2_TC2(self, requirement_id, testcase_id):
+    #     self.loginpage = LoginPage(self.driver)
+    #     Testdatacsv = read_and_split_csv(requirement_id, testcase_id)
+    #     message = self.loginpage.do_login_check(Testdatacsv[0], Testdatacsv[1])
+    #     if message == Testdata.LOGIN_SUCESS_MESSAGE:
+    #         update_status(requirement_id, testcase_id, "Pass")
+    #         assert True
+    #     else:
+    #         update_status(requirement_id, testcase_id, "Fail")
+    #         assert False

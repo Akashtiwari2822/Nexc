@@ -1,82 +1,9 @@
 id,module,name,file,doc,markers,status,message,duration
-Tests/test_functional.py::Test_Home::test_locad_playlist_section_exit_RQ_ID_10_TC_10[chrome-RQ_ID_10-TC_10],Tests.test_functional,test_locad_playlist_section_exit_RQ_ID_10_TC_10[chrome-RQ_ID_10-TC_10],Tests\test_functional.py,,"parametrize,usefixtures",error,"selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 120
-Current browser version is 122.0.6261.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Stacktrace:
-	GetHandleVerifier [0x00E96EE3+174339]
-	(No symbol) [0x00DC0A51]
-	(No symbol) [0x00AD6FF6]
-	(No symbol) [0x00AFE912]
-	(No symbol) [0x00AFE150]
-	(No symbol) [0x00AFB6D4]
-	(No symbol) [0x00AF7A0F]
-	(No symbol) [0x00B2E259]
-	(No symbol) [0x00B2DBBA]
-	(No symbol) [0x00B26DA6]
-	(No symbol) [0x00B01034]
-	(No symbol) [0x00B01F8D]
-	GetHandleVerifier [0x00F34B1C+820540]
-	sqlite3_dbdata_init [0x00FF53EE+653550]
-	sqlite3_dbdata_init [0x00FF4E09+652041]
-	sqlite3_dbdata_init [0x00FE97CC+605388]
-	sqlite3_dbdata_init [0x00FF5D9B+656027]
-	(No symbol) [0x00DCFE6C]
-	(No symbol) [0x00DC83B8]
-	(No symbol) [0x00DC84DD]
-	(No symbol) [0x00DB5818]
-	BaseThreadInitThunk [0x771EFCC9+25]
-	RtlGetAppContainerNamedObjectPath [0x77D97C5E+286]
-	RtlGetAppContainerNamedObjectPath [0x77D97C2E+238]",4.3697041000014
-Tests/test_functional.py::Test_Home::test_load_playlist_count_match_RQ_ID_11_TC_11[chrome-RQ_ID_11-TC_11],Tests.test_functional,test_load_playlist_count_match_RQ_ID_11_TC_11[chrome-RQ_ID_11-TC_11],Tests\test_functional.py,,"parametrize,usefixtures",error,"selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 120
-Current browser version is 122.0.6261.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Stacktrace:
-	GetHandleVerifier [0x00E96EE3+174339]
-	(No symbol) [0x00DC0A51]
-	(No symbol) [0x00AD6FF6]
-	(No symbol) [0x00AFE912]
-	(No symbol) [0x00AFE150]
-	(No symbol) [0x00AFB6D4]
-	(No symbol) [0x00AF7A0F]
-	(No symbol) [0x00B2E259]
-	(No symbol) [0x00B2DBBA]
-	(No symbol) [0x00B26DA6]
-	(No symbol) [0x00B01034]
-	(No symbol) [0x00B01F8D]
-	GetHandleVerifier [0x00F34B1C+820540]
-	sqlite3_dbdata_init [0x00FF53EE+653550]
-	sqlite3_dbdata_init [0x00FF4E09+652041]
-	sqlite3_dbdata_init [0x00FE97CC+605388]
-	sqlite3_dbdata_init [0x00FF5D9B+656027]
-	(No symbol) [0x00DCFE6C]
-	(No symbol) [0x00DC83B8]
-	(No symbol) [0x00DC84DD]
-	(No symbol) [0x00DB5818]
-	BaseThreadInitThunk [0x771EFCC9+25]
-	RtlGetAppContainerNamedObjectPath [0x77D97C5E+286]
-	RtlGetAppContainerNamedObjectPath [0x77D97C2E+238]",0.0002589999967312906
-Tests/test_functional.py::Test_Home::test_load_Upload_button_showing_RQ_ID_12_TC_12[chrome-RQ_ID_12-TC_12],Tests.test_functional,test_load_Upload_button_showing_RQ_ID_12_TC_12[chrome-RQ_ID_12-TC_12],Tests\test_functional.py,,"parametrize,usefixtures",error,"selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 120
-Current browser version is 122.0.6261.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Stacktrace:
-	GetHandleVerifier [0x00E96EE3+174339]
-	(No symbol) [0x00DC0A51]
-	(No symbol) [0x00AD6FF6]
-	(No symbol) [0x00AFE912]
-	(No symbol) [0x00AFE150]
-	(No symbol) [0x00AFB6D4]
-	(No symbol) [0x00AF7A0F]
-	(No symbol) [0x00B2E259]
-	(No symbol) [0x00B2DBBA]
-	(No symbol) [0x00B26DA6]
-	(No symbol) [0x00B01034]
-	(No symbol) [0x00B01F8D]
-	GetHandleVerifier [0x00F34B1C+820540]
-	sqlite3_dbdata_init [0x00FF53EE+653550]
-	sqlite3_dbdata_init [0x00FF4E09+652041]
-	sqlite3_dbdata_init [0x00FE97CC+605388]
-	sqlite3_dbdata_init [0x00FF5D9B+656027]
-	(No symbol) [0x00DCFE6C]
-	(No symbol) [0x00DC83B8]
-	(No symbol) [0x00DC84DD]
-	(No symbol) [0x00DB5818]
-	BaseThreadInitThunk [0x771EFCC9+25]
-	RtlGetAppContainerNamedObjectPath [0x77D97C5E+286]
-	RtlGetAppContainerNamedObjectPath [0x77D97C2E+238]",0.00019740000061574392
+Tests/test_LoginPage.py::TestLogin::test_signup_link_visible_RQ_ID_1_TC_1[chrome-RQ_ID_1-TC1],Tests.test_LoginPage,test_signup_link_visible_RQ_ID_1_TC_1[chrome-RQ_ID_1-TC1],Tests\test_LoginPage.py,,"parametrize,usefixtures",passed,,3.379441700002644
+Tests/test_LoginPage.py::TestLogin::test_login_page_title_RQ_ID_2_TC_2[chrome-RQ_ID_2-TC2],Tests.test_LoginPage,test_login_page_title_RQ_ID_2_TC_2[chrome-RQ_ID_2-TC2],Tests\test_LoginPage.py,,"parametrize,usefixtures",passed,,0.5827377999958117
+Tests/test_LoginPage.py::TestLogin::test_login_wrong_blank_RQ_ID_2_TC3[chrome-RQ_ID_2-TC3],Tests.test_LoginPage,test_login_wrong_blank_RQ_ID_2_TC3[chrome-RQ_ID_2-TC3],Tests\test_LoginPage.py,,"parametrize,usefixtures",passed,,1.5526804999972228
+Tests/test_LoginPage.py::TestLogin::test_login_username_blank_RQ_ID_2_TC4[chrome-RQ_ID_2-TC4],Tests.test_LoginPage,test_login_username_blank_RQ_ID_2_TC4[chrome-RQ_ID_2-TC4],Tests\test_LoginPage.py,,"parametrize,usefixtures",passed,,1.3885377999977209
+Tests/test_LoginPage.py::TestLogin::test_login_password_blank_RQ_ID_2_TC5[chrome-RQ_ID_2-TC5],Tests.test_LoginPage,test_login_password_blank_RQ_ID_2_TC5[chrome-RQ_ID_2-TC5],Tests\test_LoginPage.py,,"parametrize,usefixtures",passed,,1.491705099993851
+Tests/test_LoginPage.py::TestLogin::test_login_wrong_password_RQ_ID_2_TC[chrome-RQ_ID_2-TC6],Tests.test_LoginPage,test_login_wrong_password_RQ_ID_2_TC[chrome-RQ_ID_2-TC6],Tests\test_LoginPage.py,,"parametrize,usefixtures",passed,,2.1173965000052704
+Tests/test_LoginPage.py::TestLogin::test_login_wrong_password_RQ_ID_2_TC7[chrome-RQ_ID_2-TC7],Tests.test_LoginPage,test_login_wrong_password_RQ_ID_2_TC7[chrome-RQ_ID_2-TC7],Tests\test_LoginPage.py,,"parametrize,usefixtures",passed,,1.7877112999995006
+Tests/test_LoginPage.py::TestLogin::test_login_wrong_username_RQ_ID_2_TC_8[chrome-RQ_ID_2-TC8],Tests.test_LoginPage,test_login_wrong_username_RQ_ID_2_TC_8[chrome-RQ_ID_2-TC8],Tests\test_LoginPage.py,,"parametrize,usefixtures",passed,,1.1626166999922134
