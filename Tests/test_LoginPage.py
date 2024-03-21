@@ -118,23 +118,3 @@ class TestLogin(BaseTest):
         else:
             update_status(requirement_id, testcase_id, "Fail")
             assert False
-
-
-
-
-
-
-
-
-
-    # @pytest.mark.parametrize("requirement_id, testcase_id", [("RQ_ID_2", "TC2")])
-    # def test_login_check_RQ_ID_2_TC2(self, requirement_id, testcase_id):
-    #     self.loginpage = LoginPage(self.driver)
-    #     Testdatacsv = read_and_split_csv(requirement_id, testcase_id)
-    #     message = self.loginpage.do_login_check(Testdatacsv[0], Testdatacsv[1])
-    #     if message == Testdata.LOGIN_SUCESS_MESSAGE:
-    #         update_status(requirement_id, testcase_id, "Pass")
-    #         assert True
-    #     else:
-    #         update_status(requirement_id, testcase_id, "Fail")
-    #         assert False

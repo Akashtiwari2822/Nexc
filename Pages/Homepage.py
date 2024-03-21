@@ -368,7 +368,6 @@ class HomePage(BasePage):
                 return False
             else:
                 return True
-
         else:
             valnew = "//div[@title='" + playlistname + "']//div//div//button[contains(text(),'Load')]"
             cxpathn = (By.XPATH, valnew)

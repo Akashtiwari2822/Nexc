@@ -6,9 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="52829bbf-11d5-4dc0-a6f2-26e0845e7ef0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/updatesatus.py" beforeDir="false" afterPath="$PROJECT_DIR$/Config/updatesatus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Homepage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/test_LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_LoginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/reports/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credentials/CloudXWebtestcases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credentials/UpdatedCloudX Web-1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credentials/UpdatedCloudXWeb.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credentials/config.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credentials/test_report.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credentials/testcasees_automationcheck.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credentials/testcasees_automationcheck_b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credentials/user_credentials.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/test_report.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reports/test_report.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/test_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/test_report.html" afterDir="false" />
     </list>
@@ -41,54 +48,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.pytest for test_Homepage.Test_Home.test_cloudx_to_recaster.executor": "Run",
-    "Python tests.pytest for test_Homepage.Test_Home.test_home_page_title.executor": "Debug",
-    "Python tests.pytest for test_Homepage.Test_Home.test_home_to_move_cloudx.executor": "Run",
-    "Python tests.pytest for test_Homepage.Test_Home.test_home_to_move_recaster.executor": "Run",
-    "Python tests.pytest for test_Homepage.Test_Home.test_recaster_to_cloudx.executor": "Run",
-    "Python tests.pytest for test_LoginPage.TestLogin.test_login_check.executor": "Run",
-    "Python tests.pytest for test_LoginPage.TestLogin.test_login_check_RQ_ID_8_TC_8.executor": "Run",
-    "Python tests.pytest for test_LoginPage.TestLogin.test_login_page_title.executor": "Run",
-    "Python tests.pytest for test_LoginPage.TestLogin.test_login_page_title_RQ_ID_2_TC_2.executor": "Run",
-    "Python tests.pytest for test_LoginPage.TestLogin.test_login_password_blank.executor": "Run",
-    "Python tests.pytest for test_LoginPage.TestLogin.test_login_username_blank.executor": "Run",
-    "Python tests.pytest for test_LoginPage.TestLogin.test_login_with_credentials.executor": "Run",
-    "Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_blank_RQ_ID_2_TC3.executor": "Debug",
-    "Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_password.executor": "Debug",
-    "Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_password_RQ_ID_2_TC.executor": "Debug",
-    "Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_password_RQ_ID_4_TC_4.executor": "Debug",
-    "Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_username.executor": "Debug",
-    "Python tests.pytest for test_LoginPage.TestLogin.test_signup_link_visible.executor": "Run",
-    "Python tests.pytest for test_LoginPage.TestLogin.test_signup_link_visible_RQ_ID_1_TC_1.executor": "Debug",
-    "Python tests.pytest for test_LoginPage.Test_Login.test_login.executor": "Debug",
-    "Python tests.pytest for test_Menu.Test_Home.test_menu_check_exit_RQ_ID_9_TC_9.executor": "Run",
-    "Python tests.pytest for test_functional.Test_Home.test_append_button_disable_RQ_ID_14_TC_14.executor": "Run",
-    "Python tests.pytest for test_functional.Test_Home.test_load_Upload_button_showing_RQ_ID_12_TC_12.executor": "Run",
-    "Python tests.pytest for test_functional.Test_Home.test_load_button_disable_RQ_ID_13_TC_13.executor": "Run",
-    "Python tests.pytest for test_functional.Test_Home.test_load_playlist_count_match_RQ_ID_11_TC_11.executor": "Run",
-    "Python tests.pytest for test_functional.Test_Home.test_locad_playlist_section_exit_RQ_ID_10_TC_10.executor": "Run",
-    "Python tests.pytest for test_functional.Test_Home.test_menu_check_exit_RQ_ID_10_TC_10.executor": "Run",
-    "Python tests.pytest for test_load_append.Test_Home.test_appen_playlist_delete_option_RQ_ID_16_TC_16.executor": "Debug",
-    "Python tests.pytest for test_load_append.Test_Home.test_appen_popup_open_RQ_ID_15_TC_15.executor": "Debug",
-    "Python tests.pytest for test_load_append.Test_Home.test_append_button_disable_RQ_ID_14_TC_14.executor": "Debug",
-    "Python tests.pytest for test_load_append.Test_Home.test_load_button_disable_RQ_ID_13_TC_13.executor": "Debug",
-    "Python tests.pytest for test_load_append.Test_Home.test_manage_playlist_delete_RQ_ID_17_TC_17.executor": "Debug",
-    "Python tests.pytest for test_load_append.Test_Home.test_verify_the_edit_allmenu_show_RQ_ID_18_TC_18.executor": "Debug",
-    "Python tests.pytest for test_redirection.Test_redirection.test_cloudx_to_recaster.executor": "Run",
-    "Python tests.pytest for test_redirection.Test_redirection.test_home_to_move_cloudx.executor": "Run",
-    "Python tests.pytest for test_redirection.Test_redirection.test_home_to_move_recaster.executor": "Run",
-    "Python tests.pytest for test_redirection.Test_redirection.test_recaster_to_cloudx.executor": "Run",
-    "Python tests.pytest in test_LoginPage.py.executor": "Debug",
-    "Python.updatesatus.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/xampp/htdocs/Inventeryandworkmanagementsystem",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.pytest for test_Homepage.Test_Home.test_cloudx_to_recaster.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_Homepage.Test_Home.test_home_page_title.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for test_Homepage.Test_Home.test_home_to_move_cloudx.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_Homepage.Test_Home.test_home_to_move_recaster.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_Homepage.Test_Home.test_recaster_to_cloudx.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_LoginPage.TestLogin.test_login_check.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_LoginPage.TestLogin.test_login_check_RQ_ID_8_TC_8.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_LoginPage.TestLogin.test_login_page_title.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_LoginPage.TestLogin.test_login_page_title_RQ_ID_2_TC_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_LoginPage.TestLogin.test_login_password_blank.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_LoginPage.TestLogin.test_login_username_blank.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_LoginPage.TestLogin.test_login_with_credentials.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_blank_RQ_ID_2_TC3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_password.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_password_RQ_ID_2_TC.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_password_RQ_ID_4_TC_4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_username.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for test_LoginPage.TestLogin.test_signup_link_visible.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_LoginPage.TestLogin.test_signup_link_visible_RQ_ID_1_TC_1.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for test_LoginPage.Test_Login.test_login.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for test_Menu.Test_Home.test_menu_check_exit_RQ_ID_9_TC_9.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_functional.Test_Home.test_append_button_disable_RQ_ID_14_TC_14.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_functional.Test_Home.test_load_Upload_button_showing_RQ_ID_12_TC_12.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_functional.Test_Home.test_load_button_disable_RQ_ID_13_TC_13.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_functional.Test_Home.test_load_playlist_count_match_RQ_ID_11_TC_11.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_functional.Test_Home.test_locad_playlist_section_exit_RQ_ID_10_TC_10.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_functional.Test_Home.test_menu_check_exit_RQ_ID_10_TC_10.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_load_append.Test_Home.test_appen_playlist_delete_option_RQ_ID_16_TC_16.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for test_load_append.Test_Home.test_appen_popup_open_RQ_ID_15_TC_15.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for test_load_append.Test_Home.test_append_button_disable_RQ_ID_14_TC_14.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for test_load_append.Test_Home.test_load_button_disable_RQ_ID_13_TC_13.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for test_load_append.Test_Home.test_manage_playlist_delete_RQ_ID_17_TC_17.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for test_load_append.Test_Home.test_verify_the_edit_allmenu_show_RQ_ID_18_TC_18.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for test_redirection.Test_redirection.test_cloudx_to_recaster.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_redirection.Test_redirection.test_home_to_move_cloudx.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_redirection.Test_redirection.test_home_to_move_recaster.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_redirection.Test_redirection.test_recaster_to_cloudx.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_LoginPage.py.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.updatesatus.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/Inventeryandworkmanagementsystem&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.pytest for test_LoginPage.TestLogin.test_login_wrong_password_RQ_ID_2_TC">
     <configuration name="pytest for test_LoginPage.TestLogin.test_login_page_title_RQ_ID_2_TC_2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="nex" />
@@ -265,44 +272,8 @@
           <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Config/updatesatus.py</url>
-          <line>23</line>
+          <url>file://$PROJECT_DIR$/Tests/test_LoginPage.py</url>
           <option name="timeStamp" value="123" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Config/updatesatus.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Config/updatesatus.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="130" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Config/updatesatus.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="131" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Tests/test_LoginPage.py</url>
-          <line>50</line>
-          <option name="timeStamp" value="132" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Tests/test_LoginPage.py</url>
-          <line>51</line>
-          <option name="timeStamp" value="133" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Tests/test_LoginPage.py</url>
-          <line>92</line>
-          <option name="timeStamp" value="134" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Tests/test_LoginPage.py</url>
-          <line>90</line>
-          <option name="timeStamp" value="135" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
